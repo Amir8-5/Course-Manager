@@ -1,0 +1,43 @@
+---- For succesful test : ----
+ 
+sign-up :
+name : Amir
+username : Amir1
+password : Amir1234
+
+login :
+username : Amir1
+password : Amir1234
+
+new class :
+teacher : P. Benhum
+course : Computer Science
+course code : ICS3U1-01
+grade : 95
+
+new assignment : 
+name : String test
+grade : 95
+
+
+
+---- For unsuccesful test : ----
+
+sign-up :
+name : Amir
+username : Amir1
+password : Amir1234
+
+login :
+username : NotAmir
+password : NotAmir1234
+
+new class :
+teacher : P. Benhum
+course : Computer Science
+course code : ICS3U1-01
+grade : ninety-five
+
+new assignment : 
+name : String test
+grade : ninety-five

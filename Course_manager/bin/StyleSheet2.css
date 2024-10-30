@@ -1,0 +1,84 @@
+.root {
+	-fx-font-size: 14px;
+	-fx-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.label {
+	-fx-text-fill: #333333;
+	
+}
+
+.button {
+	-fx-background-color: #4169e1;
+	/* Use a color from the complementary color scheme */
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-cursor: hand;
+}
+
+.button:hover {
+	-fx-background-color: #6495ed;
+	/* Use a lighter version of the button color */
+	-fx-text-fill: white;
+}
+
+.button:pressed {
+	-fx-background-color: #4169e1; /* Use the same color as the button */
+	-fx-text-fill: #cccccc;
+}
+
+.text-field {
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 5px;
+	-fx-background-color: white;
+	-fx-font-size: 14px;
+	-fx-padding: 5px;
+}
+
+.text-area {
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 5px;
+	-fx-background-color: white;
+	-fx-font-size: 14px;
+	-fx-padding: 5px;
+}
+
+.choice-box {
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 5px;
+	-fx-background-color: white;
+	-fx-font-size: 14px;
+	-fx-padding: 5px;
+}
+
+.new-class-shape {
+	-fx-border-color: black;
+	-fx-max-height: 100;
+	-fx-max-width: 600;
+	-fx-min-height: 100;
+	-fx-min-width: 600;
+	-fx-border-radius: 25;
+}
+
+.new-class-label {
+	-fx-font-size: 13;
+	-fx-font-family: monospace;
+}
+
+.progress-indicator {
+	-fx-progress-color: #32CD32;
+}
+
+.progress-indicator .percentage {
+	-fx-font-family: monospace;
+	-fx-font-size: 18;
+	-fx-progress-color: #32CD32;
+}
+
+.exit-button {
+	-fx-min-height:30;
+	-fx-min-width:50;
+	-fx-background-color: Red;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-cursor: hand;
+}
